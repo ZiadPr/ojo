@@ -1,7 +1,7 @@
 {
   "schema": "folio-catalog/v1",
-  "version": 1780356919,
-  "updatedAt": "2026-06-01T23:35:19Z",
+  "version": 1780357914,
+  "updatedAt": "2026-06-01T23:51:53Z",
   "provider": {
     "id": "z",
     "displayName": "Ziad Yahya ",
@@ -13,28 +13,29 @@
   "categories": [
     {
       "id": "23bd5221-287f-4fb7-aaa9-8d48c91f33a5",
-      "name": "test",
+      "name": "كاندي",
       "sort": 1
     }
   ],
   "products": [
     {
       "id": "74055809-dd59-40d4-ab70-3df8d9d459ee",
-      "name": "test",
-      "description": "test",
+      "sku": "candy-ogo",
+      "name": "كاندي",
+      "description": "كاندي حسب الوزن",
       "categoryId": "23bd5221-287f-4fb7-aaa9-8d48c91f33a5",
-      "price": 10.0,
+      "price": 25.0,
       "active": true,
       "image": {
         "path": "products/74055809-dd59-40d4-ab70-3df8d9d459ee.jpg",
-        "alt": "test"
+        "alt": "كاندي"
       },
       "limits": {
         "minQty": 1,
-        "maxQty": 100,
+        "maxQty": 5,
         "step": 1
       },
-      "updatedAt": 1780356913744
+      "updatedAt": 1780357907819
     }
   ]
 }
