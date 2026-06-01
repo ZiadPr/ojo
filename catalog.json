@@ -1,0 +1,39 @@
+{
+  "schema": "folio-catalog/v1",
+  "version": 1,
+  "updatedAt": "2026-06-01T23:03:27Z",
+  "provider": {
+    "id": "z",
+    "displayName": "Ziad Yahya ",
+    "whatsappE164": "+201124148723"
+  },
+  "assets": {
+    "imagesBaseUrl": "https://raw.githubusercontent.com/ZiadPr/ojo/main/images/"
+  },
+  "categories": [
+    {
+      "id": "1889d7a3-7c3f-4956-a5c0-9eb6fc6df104",
+      "name": "test",
+      "sort": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "4341be29-17c2-4753-813c-cfc53a7ddb5e",
+      "name": "test",
+      "categoryId": "1889d7a3-7c3f-4956-a5c0-9eb6fc6df104",
+      "price": 10.0,
+      "active": true,
+      "image": {
+        "path": "products/4341be29-17c2-4753-813c-cfc53a7ddb5e.jpg",
+        "alt": "test"
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1780354536551
+    }
+  ]
+}
