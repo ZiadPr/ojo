@@ -1,7 +1,7 @@
 {
   "schema": "folio-catalog/v1",
-  "version": 1780357914,
-  "updatedAt": "2026-06-01T23:51:53Z",
+  "version": 1780848056,
+  "updatedAt": "2026-06-07T16:00:55Z",
   "provider": {
     "id": "z",
     "displayName": "Ziad Yahya ",
@@ -15,9 +15,55 @@
       "id": "23bd5221-287f-4fb7-aaa9-8d48c91f33a5",
       "name": "كاندي",
       "sort": 1
+    },
+    {
+      "id": "956b668e-5d85-441e-bfb7-594b89b6cc7a",
+      "name": "سناكس",
+      "sort": 2
+    },
+    {
+      "id": "804b713e-17ab-48d3-8140-3179e46156db",
+      "name": "مشروبات",
+      "sort": 3
     }
   ],
   "products": [
+    {
+      "id": "e42c49fd-150c-43cb-a2fd-5289f734a204",
+      "sku": "Coke",
+      "name": "Coke Cola ",
+      "categoryId": "804b713e-17ab-48d3-8140-3179e46156db",
+      "price": 0.0,
+      "active": true,
+      "image": {
+        "path": "products/e42c49fd-150c-43cb-a2fd-5289f734a204.jpg",
+        "alt": "Coke Cola "
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1780848015764
+    },
+    {
+      "id": "20808406-e0ac-42b9-9262-51aea63fe85d",
+      "sku": "Wbc",
+      "name": "Waval B Choco",
+      "categoryId": "956b668e-5d85-441e-bfb7-594b89b6cc7a",
+      "price": 50.0,
+      "active": true,
+      "image": {
+        "path": "products/20808406-e0ac-42b9-9262-51aea63fe85d.jpg",
+        "alt": "Waval B Choco"
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1780847974141
+    },
     {
       "id": "74055809-dd59-40d4-ab70-3df8d9d459ee",
       "sku": "candy-ogo",
