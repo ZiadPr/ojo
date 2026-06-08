@@ -1,7 +1,7 @@
 {
   "schema": "folio-catalog/v1",
-  "version": 1780848056,
-  "updatedAt": "2026-06-07T16:00:55Z",
+  "version": 1780951205,
+  "updatedAt": "2026-06-08T20:40:04Z",
   "provider": {
     "id": "z",
     "displayName": "Ziad Yahya ",
@@ -11,6 +11,11 @@
     "imagesBaseUrl": "https://raw.githubusercontent.com/ZiadPr/ojo/main/images/"
   },
   "categories": [
+    {
+      "id": "32373bda-8e97-4255-b458-b96fe23d5f2b",
+      "name": "مقرمشات",
+      "sort": 0
+    },
     {
       "id": "23bd5221-287f-4fb7-aaa9-8d48c91f33a5",
       "name": "كاندي",
@@ -29,22 +34,58 @@
   ],
   "products": [
     {
+      "id": "74055809-dd59-40d4-ab70-3df8d9d459ee",
+      "sku": "candy-ogo",
+      "name": "Candy Crush ",
+      "description": "كاندي حسب الوزن",
+      "categoryId": "23bd5221-287f-4fb7-aaa9-8d48c91f33a5",
+      "price": 25.0,
+      "active": true,
+      "image": {
+        "path": "products/74055809-dd59-40d4-ab70-3df8d9d459ee.jpg",
+        "alt": "Candy Crush "
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 5,
+        "step": 1
+      },
+      "updatedAt": 1780951149458
+    },
+    {
       "id": "e42c49fd-150c-43cb-a2fd-5289f734a204",
       "sku": "Coke",
-      "name": "Coke Cola ",
+      "name": "Pistachio Soda",
       "categoryId": "804b713e-17ab-48d3-8140-3179e46156db",
-      "price": 0.0,
+      "price": 50.0,
       "active": true,
       "image": {
         "path": "products/e42c49fd-150c-43cb-a2fd-5289f734a204.jpg",
-        "alt": "Coke Cola "
+        "alt": "Pistachio Soda"
       },
       "limits": {
         "minQty": 1,
         "maxQty": 100,
         "step": 1
       },
-      "updatedAt": 1780848015764
+      "updatedAt": 1780951124217
+    },
+    {
+      "id": "03bdb997-65f1-4232-b2b3-3582fab31528",
+      "name": "Plain Crackers",
+      "categoryId": "32373bda-8e97-4255-b458-b96fe23d5f2b",
+      "price": 30.0,
+      "active": true,
+      "image": {
+        "path": "products/03bdb997-65f1-4232-b2b3-3582fab31528.jpg",
+        "alt": "Plain Crackers"
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1780951200563
     },
     {
       "id": "20808406-e0ac-42b9-9262-51aea63fe85d",
@@ -63,25 +104,6 @@
         "step": 1
       },
       "updatedAt": 1780847974141
-    },
-    {
-      "id": "74055809-dd59-40d4-ab70-3df8d9d459ee",
-      "sku": "candy-ogo",
-      "name": "كاندي",
-      "description": "كاندي حسب الوزن",
-      "categoryId": "23bd5221-287f-4fb7-aaa9-8d48c91f33a5",
-      "price": 25.0,
-      "active": true,
-      "image": {
-        "path": "products/74055809-dd59-40d4-ab70-3df8d9d459ee.jpg",
-        "alt": "كاندي"
-      },
-      "limits": {
-        "minQty": 1,
-        "maxQty": 5,
-        "step": 1
-      },
-      "updatedAt": 1780357907819
     }
   ]
 }
