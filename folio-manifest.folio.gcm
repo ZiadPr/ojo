@@ -1,0 +1,125 @@
+{
+  "schema": "folio-catalog/v1",
+  "version": 1,
+  "updatedAt": "2026-06-08T20:28:07Z",
+  "provider": {
+    "id": "O",
+    "displayName": "",
+    "whatsappE164": ""
+  },
+  "assets": {
+    "imagesBaseUrl": "https://raw.githubusercontent.com/ZiadPr/ojo/main/images/"
+  },
+  "categories": [
+    {
+      "id": "c9fc8588-5cd0-4901-984b-b806c8151484",
+      "name": "مشروبات",
+      "sort": 1
+    },
+    {
+      "id": "70bb004e-7b10-4e3a-b948-36d2a1f41f8c",
+      "name": "كاندي",
+      "sort": 2
+    },
+    {
+      "id": "afeb339c-8ed8-4c34-bf5d-02953a20ee65",
+      "name": "سناكس",
+      "sort": 3
+    },
+    {
+      "id": "7d9bbd37-5bc9-48e9-abce-7c9858f46f59",
+      "name": "شيبس",
+      "sort": 4
+    }
+  ],
+  "products": [
+    {
+      "id": "73871299-8e7e-4585-a757-8ec84623bafe",
+      "name": "Candy Mix",
+      "categoryId": "70bb004e-7b10-4e3a-b948-36d2a1f41f8c",
+      "price": 20.0,
+      "active": true,
+      "image": {
+        "path": "products/73871299-8e7e-4585-a757-8ec84623bafe.jpg",
+        "alt": "Candy Mix"
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1780950433372
+    },
+    {
+      "id": "d8b4366c-baa4-4803-8027-5ebfb11517cf",
+      "sku": "2",
+      "name": "Doritos",
+      "categoryId": "7d9bbd37-5bc9-48e9-abce-7c9858f46f59",
+      "price": 20.0,
+      "active": true,
+      "image": {
+        "path": "products/d8b4366c-baa4-4803-8027-5ebfb11517cf.jpg",
+        "alt": "Doritos"
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1780950379169
+    },
+    {
+      "id": "c7594d96-e4e6-47b3-a0ac-2d23ba299813",
+      "name": "Giant Candy",
+      "categoryId": "70bb004e-7b10-4e3a-b948-36d2a1f41f8c",
+      "price": 40.0,
+      "active": true,
+      "image": {
+        "path": "products/c7594d96-e4e6-47b3-a0ac-2d23ba299813.jpg",
+        "alt": "Giant Candy"
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1780950477380
+    },
+    {
+      "id": "e4344c30-3dda-4dc0-a2c8-ec815955d665",
+      "name": "Original Red Bull",
+      "categoryId": "c9fc8588-5cd0-4901-984b-b806c8151484",
+      "price": 50.0,
+      "active": true,
+      "image": {
+        "path": "products/e4344c30-3dda-4dc0-a2c8-ec815955d665.jpg",
+        "alt": "Original Red Bull"
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1780950356372
+    },
+    {
+      "id": "a6f2fe9c-0426-4969-a084-02037e202a38",
+      "sku": "1",
+      "name": "Pringles ",
+      "description": "Pringles is a global fast food brand",
+      "categoryId": "7d9bbd37-5bc9-48e9-abce-7c9858f46f59",
+      "price": 70.0,
+      "active": true,
+      "image": {
+        "path": "products/a6f2fe9c-0426-4969-a084-02037e202a38.jpg",
+        "alt": "Pringles "
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1780950365132
+    }
+  ]
+}
