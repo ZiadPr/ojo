@@ -1,7 +1,7 @@
 {
   "schema": "folio-catalog/v1",
-  "version": 1780951205,
-  "updatedAt": "2026-06-08T20:40:04Z",
+  "version": 1781119979,
+  "updatedAt": "2026-06-10T19:32:59Z",
   "provider": {
     "id": "z",
     "displayName": "Ziad Yahya ",
@@ -68,7 +68,7 @@
         "maxQty": 100,
         "step": 1
       },
-      "updatedAt": 1780951124217
+      "updatedAt": 1781119914734
     },
     {
       "id": "03bdb997-65f1-4232-b2b3-3582fab31528",
@@ -85,7 +85,7 @@
         "maxQty": 100,
         "step": 1
       },
-      "updatedAt": 1780951200563
+      "updatedAt": 1781119924036
     },
     {
       "id": "20808406-e0ac-42b9-9262-51aea63fe85d",
@@ -103,7 +103,7 @@
         "maxQty": 100,
         "step": 1
       },
-      "updatedAt": 1780847974141
+      "updatedAt": 1781119968010
     }
   ]
 }
