@@ -1,7 +1,7 @@
 {
   "schema": "folio-catalog/v1",
-  "version": 1781119979,
-  "updatedAt": "2026-06-10T19:32:59Z",
+  "version": 1781180810,
+  "updatedAt": "2026-06-11T12:26:50Z",
   "provider": {
     "id": "z",
     "displayName": "Ziad Yahya ",
@@ -51,6 +51,23 @@
         "step": 1
       },
       "updatedAt": 1780951149458
+    },
+    {
+      "id": "27cd7f1b-8e09-48aa-8eba-52ca0bc77ee4",
+      "name": "Chocolate chips",
+      "categoryId": "32373bda-8e97-4255-b458-b96fe23d5f2b",
+      "price": 50.0,
+      "active": true,
+      "image": {
+        "path": "products/27cd7f1b-8e09-48aa-8eba-52ca0bc77ee4.jpg",
+        "alt": "Chocolate chips"
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1781180804173
     },
     {
       "id": "e42c49fd-150c-43cb-a2fd-5289f734a204",
