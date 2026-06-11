@@ -1,7 +1,7 @@
 {
   "schema": "folio-catalog/v1",
-  "version": 1781180810,
-  "updatedAt": "2026-06-11T12:26:50Z",
+  "version": 1781180981,
+  "updatedAt": "2026-06-11T12:29:40Z",
   "provider": {
     "id": "z",
     "displayName": "Ziad Yahya ",
@@ -68,6 +68,23 @@
         "step": 1
       },
       "updatedAt": 1781180804173
+    },
+    {
+      "id": "5f621c45-766d-4750-b79d-e38c7b0cca21",
+      "name": "Dried fruits ",
+      "categoryId": "32373bda-8e97-4255-b458-b96fe23d5f2b",
+      "price": 20.0,
+      "active": true,
+      "image": {
+        "path": "products/5f621c45-766d-4750-b79d-e38c7b0cca21.jpg",
+        "alt": "Dried fruits "
+      },
+      "limits": {
+        "minQty": 1,
+        "maxQty": 100,
+        "step": 1
+      },
+      "updatedAt": 1781180968650
     },
     {
       "id": "e42c49fd-150c-43cb-a2fd-5289f734a204",
